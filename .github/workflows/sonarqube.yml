@@ -35,7 +35,7 @@ jobs:
 
       - name: Run SonarQube analysis
         run: |
-          ./gradlew sonar \
+          gradle sonar \
             -Dsonar.projectKey=liferay-workspace \
             -Dsonar.projectName="Liferay Workspace" \
             -Dsonar.host.url=https://b7e848788db0.ngrok-free.app \
