@@ -1,0 +1,7 @@
+Bundle-Name: timesheet-web
+Bundle-SymbolicName: com.timesheet.web
+Bundle-Version: 1.0.0
+Export-Package: com.timesheet.web.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
