@@ -35,7 +35,7 @@ jobs:
 
       - name: Run SonarQube analysis
         run: |
-          ./gradlew build sonarqube \
+           gradlew build sonarqube \
           -Dsonar.gradle.skipCompile=true \
           -Dsonar.projectKey=liferay-workspace \
           -Dsonar.projectName="Liferay Workspace" \
