@@ -38,11 +38,11 @@ jobs:
 
       - name: Run SonarQube analysis
         run: |
-          ./gradlew build sonarqube \
+          ./gradlew build sonar \
             -Dsonar.gradle.skipCompile=true \
-            -Dsonar.projectKey=liferay-workspace \
+            -Dsonar.projectKey=Liferay-Workspace \
             -Dsonar.projectName="Liferay Workspace" \
             -Dsonar.tests="" \
             -Dsonar.scm.disabled=true \
             -Dsonar.host.url=https://b7e848788db0.ngrok-free.app \
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
