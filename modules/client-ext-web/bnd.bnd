@@ -1,0 +1,7 @@
+Bundle-Name: client-ext-web
+Bundle-SymbolicName: com.client.ext.web
+Bundle-Version: 1.0.0
+Export-Package: com.client.ext.web.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
