@@ -1,0 +1,7 @@
+Bundle-Name: error-web
+Bundle-SymbolicName: com.liferay.error.web
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.error.web.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
